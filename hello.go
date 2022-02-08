@@ -1,4 +1,4 @@
-package learngowithtests
+package main
 
 import "fmt"
 
@@ -8,6 +8,7 @@ func Hello(name string) string {
 	return englishHelloPrefix + name + "!"
 }
 
+//lint:ignore
 func main() {
 	fmt.Println(Hello(""))
 }

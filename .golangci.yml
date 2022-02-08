@@ -1,0 +1,4 @@
+linters:
+  disable:
+    - deadcode
+# see https://github.com/golangci/golangci-lint/issues/1841

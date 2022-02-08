@@ -1,4 +1,4 @@
-package learngowithtests
+package main
 
 import "testing"
 
