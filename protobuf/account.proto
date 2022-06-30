@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+package aws;
+option go_package = "./aws";
+
+import "google/protobuf/timestamp.proto";
+
+message Account {
+    string Id = 1;
+    string Arn = 2;
+    string Email = 3;
+    string Name = 4;
+
+    google.protobuf.Timestamp JoinedTimestamp = 10;
+}
