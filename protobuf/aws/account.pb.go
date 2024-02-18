@@ -140,6 +140,7 @@ var (
 		(*timestamppb.Timestamp)(nil), // 1: google.protobuf.Timestamp
 	}
 )
+
 var file_account_proto_depIdxs = []int32{
 	1, // 0: aws.Account.JoinedTimestamp:type_name -> google.protobuf.Timestamp
 	1, // [1:1] is the sub-list for method output_type
