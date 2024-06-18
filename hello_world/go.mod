@@ -1,3 +1,3 @@
 module github.com/rollwagen/go/hello_world
 
-go 1.19
+go 1.21
